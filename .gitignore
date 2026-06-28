@@ -15,3 +15,6 @@ vendor/
 
 # Environment
 .env
+
+# Images
+assets/images/
