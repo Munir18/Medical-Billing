@@ -1,0 +1,144 @@
+﻿  <?php if (hfrcm_is_elementor()): ?>
+    <?php the_content(); ?>
+  <?php else: ?>
+
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero-content fade-in">
+          <span class="section-label"><span class="dot"></span> Get Started</span>
+          <h1>Book Your Free Consultancy</h1>
+          <p>Take the first step toward optimizing your revenue cycle. Fill out the form below and our RCM experts will
+            reach out within 24 hours to schedule your free consultation and 90 day audit.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="book-section">
+      <div class="container">
+        <div class="consult-layout">
+          <div class="consult-form-wrap fade-in-left">
+            <div class="form-card">
+              <div class="fc-header">
+                <h2>Request a Free Consultation</h2>
+                <p>Fill out the details below and our team will contact you within one business day.</p>
+              </div>
+              <form id="consultancy-form" action="#" method="POST">
+                <div class="form-row">
+                  <div class="form-group"><label class="form-label" for="firstName">First Name *</label><input
+                      class="form-input" type="text" id="firstName" name="firstName" placeholder="John" required></div>
+                  <div class="form-group"><label class="form-label" for="lastName">Last Name *</label><input
+                      class="form-input" type="text" id="lastName" name="lastName" placeholder="Smith" required></div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group"><label class="form-label" for="email">Email Address *</label><input
+                      class="form-input" type="email" id="email" name="email" placeholder="john@practice.com" required>
+                  </div>
+                  <div class="form-group"><label class="form-label" for="phone">Phone Number *</label><input
+                      class="form-input" type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567" required></div>
+                </div>
+                <div class="form-group"><label class="form-label" for="practiceName">Practice / Organization
+                    Name</label><input class="form-input" type="text" id="practiceName" name="practiceName"
+                    placeholder="Your Practice Name"></div>
+                <div class="form-row">
+                  <div class="form-group"><label class="form-label" for="specialty">Specialty</label>
+                    <select class="form-select" id="specialty" name="specialty">
+                      <option value="">Select Specialty</option>
+                      <option>Cardiology</option>
+                      <option>Orthopedics</option>
+                      <option>Internal Medicine</option>
+                      <option>Dermatology</option>
+                      <option>Family Practice</option>
+                      <option>Neurology</option>
+                      <option>Oncology</option>
+                      <option>Surgery</option>
+                      <option>Radiology</option>
+                      <option>Psychiatry</option>
+                      <option>Urgent Care</option>
+                      <option>Multi-Specialty</option>
+                      <option>Other</option>
+                    </select>
+                  </div>
+                  <div class="form-group"><label class="form-label" for="providers">Number of Providers</label>
+                    <select class="form-select" id="providers" name="providers">
+                      <option value="">Select Range</option>
+                      <option>1 to 5</option>
+                      <option>6 to 15</option>
+                      <option>16 to 30</option>
+                      <option>31 to 50</option>
+                      <option>50+</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group"><label class="form-label" for="service">Service Interested In</label>
+                  <select class="form-select" id="service" name="service">
+                    <option value="">Select Service</option>
+                    <option>Medical Billing &amp; RCM</option>
+                    <option>Medical Coding</option>
+                    <option>Credentialing &amp; Enrollment</option>
+                    <option>Denial Management</option>
+                    <option>A/R Management</option>
+                    <option>Eligibility Verification</option>
+                    <option>Complete RCM Solution</option>
+                    <option>Free 90-Day RCM Audit</option>
+                  </select>
+                </div>
+                <div class="form-group"><label class="form-label" for="message">Tell Us About Your Current
+                    Challenges</label><textarea class="form-textarea" id="message" name="message"
+                    placeholder="Describe your current billing challenges, pain points, or what you are looking for in an RCM partner..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg btn-submit"
+                  style="width:100%;justify-content:center;">Submit Consultation Request <span
+                    class="arrow">&rarr;</span></button>
+                <p class="form-note">&#128274; Your information is 100% secure and will never be shared. HIPAA compliant.
+                </p>
+              </form>
+            </div>
+          </div>
+
+          <div class="consult-sidebar fade-in-right">
+            <div class="sidebar-card audit-card">
+              <div class="sc-badge">FREE OFFER</div>
+              <h3>90-Day RCM Audit</h3>
+              <p>Get a comprehensive analysis of your entire revenue cycle at absolutely no cost. Our audit includes:</p>
+              <ul>
+                <li>&#10003; Claims accuracy &amp; error analysis</li>
+                <li>&#10003; Denial rate assessment</li>
+                <li>&#10003; A/R aging review</li>
+                <li>&#10003; Coding compliance check</li>
+                <li>&#10003; Revenue leakage identification</li>
+                <li>&#10003; Custom improvement roadmap</li>
+              </ul>
+              <div class="audit-value"><span class="av-label">Audit Value</span><span class="av-price"><s>$2,500</s>
+                  FREE</span></div>
+            </div>
+
+            <div class="sidebar-card contact-card">
+              <h3>Prefer to Talk?</h3>
+              <p>Reach out to us directly. We are available Monday through Friday, 8 AM to 6 PM MT.</p>
+              <div class="cc-item"><span>&#128222;</span><a href="tel:+14062356348">+1 (406) 235-6348</a></div>
+              <div class="cc-item"><span>&#9993;</span><a
+                  href="mailto:Healthflowrcmllc@gmail.com">Healthflowrcmllc@gmail.com</a></div>
+              <div class="cc-item"><span>&#128205;</span><span>1001 S Main St, STE 500, Kalispell, MT 59901, USA</span>
+              </div>
+            </div>
+
+            <div class="sidebar-card stats-card">
+              <h3>Why Providers Choose Us</h3>
+              <div class="qs-item">
+                <div class="qs-num">97%</div>
+                <div class="qs-text">First-pass claim acceptance</div>
+              </div>
+              <div class="qs-item">
+                <div class="qs-num">+20%</div>
+                <div class="qs-text">Average revenue increase</div>
+              </div>
+              <div class="qs-item">
+                <div class="qs-num">48hr</div>
+                <div class="qs-text">Average turnaround time</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
